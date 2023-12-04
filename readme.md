@@ -125,6 +125,14 @@
 - Как далеко отель расположен от центра
 - N фотографий отеля (если пользователь счёл необходимым их вывод)
 
+## ENDPOINT
+
+url_from_cities = "https://hotels4.p.rapidapi.com/locations/v2/search"
+
+url_from_properties = "https://hotels4.p.rapidapi.com/properties/v2/list"
+
+url_from_photo = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
+
 
 
 ## В разработке использованы
