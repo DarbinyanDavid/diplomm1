@@ -18,3 +18,11 @@ DEFAULT_COMMANDS = (
     ('history', "Вывод истории поиска отелей")
 
 )
+
+url_from_cities = "https://hotels4.p.rapidapi.com/locations/v2/search"
+url_from_properties = "https://hotels4.p.rapidapi.com/properties/v2/list"
+url_from_photo = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
+
+headers = {
+    "X-RapidAPI-Host": "hotels4.p.rapidapi.com",
+    "X-RapidAPI-Key": '79814a5600msh79e020e57aaf62fp15c92bjsn3757c4bcc275'}
